@@ -1,0 +1,52 @@
+
+Portfolio Website
+This is my personal portfolio website built using HTML, CSS, and Font Awesome icons. The website showcases information about my projects, education, and experience, and it includes navigation links for easy access to various sections such as "About Me," "Projects," and "Contact Me."
+
+Features
+Responsive Navigation: The navigation bar includes text links for larger screens and icon-based links for smaller screens (via media queries).
+Project Cards: The website displays individual projects as clickable cards that link to detailed project pages.
+Custom Styling: The website is styled using custom CSS to match my personal branding and provide a modern look.
+Technology Used
+HTML5: Structure of the webpage.
+CSS3: Styling of the webpage, including responsive design.
+Font Awesome: Icon library for the navigation links.
+Files Structure
+bash
+Copy
+Edit
+/portfolio-website
+├── About_me.html        # About me page
+├── Project.html         # Projects page
+├── style.css            # External stylesheet for styling
+├── images/              # Folder containing project images (e.g., mario.jpg)
+└── README.md            # Documentation file (this file)
+Setup Instructions
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/portfolio-website.git
+Open the project: Navigate to the project folder and open index.html (or any other HTML file) in your browser.
+
+Modify the content: Customize the content such as your personal details, project images, and links by editing the corresponding HTML files (About_me.html, Project.html, etc.).
+
+Edit the CSS: You can edit style.css to change the design or adapt the layout to your preferences.
+
+How to Add More Projects
+To add a new project card, duplicate an existing <div class="project-card"> section inside the .gallery container.
+
+Update the img tag with the correct image source and the <h2> and <p> tags with your project title and description.
+
+html
+Copy
+Edit
+<div class="project-card">
+    <img src="path/to/your-image.jpg" alt="Project Name">
+    <div class="card-caption">
+        <h2>Project Title</h2>
+        <p>Short project description.</p>
+    </div>
+</div>
+License
+This project is open-source and available under the MIT License.
